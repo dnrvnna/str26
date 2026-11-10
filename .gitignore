@@ -66,3 +66,41 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+# Папки сборки CMake и Visual Studio
+build/
+out/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Скрытая папка Visual Studio (кэш, настройки пользователя)
+.vs/
+
+# Пользовательские файлы Visual Studio
+*.user
+*.suo
+*.sln.docstates
+*.userosscache
+*.sln.docstates
+
+# Стандартные папки сборки MSVC
+Debug/
+Release/
+x64/
+x86/
+
+# Скомпилированные файлы и артефакты
+*.exe
+*.pdb
+*.ilk
+*.obj
+*.tlog
+*.log
+*.idb
+*.exp
+*.lib
+*.dll
+
+# Временные файлы Windows
+Thumbs.db
+Desktop.ini
